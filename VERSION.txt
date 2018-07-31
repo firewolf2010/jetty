@@ -1,9 +1,13 @@
-jetty-9.4.12-SNAPSHOT
-
-jetty-9.4.12.RC0 - 11 July 2018
+jetty-9.4.12.RC1 - 31 July 2018
+ + 307 Monitor contention in AbstractNCSARequestLog
  + 901 Overriding SSL context KeyStoreType requires explicit override of
    TrustStoreType
+ + 1688 Request with `Content-Encoding: gzip` should not perform parameter
+   extraction
+ + 1905 Deprecate jetty-runner now, present warnings when using it on Java 9+
+   Runtimes
  + 2075 Deprecating MultiException
+ + 2135 Android 8.1 needs direct buffers for SSL/TLS to work
  + 2342 File Descriptor Leak: Conscrypt: "Too many open files"
  + 2349 HTTP/2 max streams enforcement
  + 2398 MultiPartFormInputStream parsing should default to UTF-8, but allowed
@@ -22,9 +26,14 @@ jetty-9.4.12.RC0 - 11 July 2018
  + 2663 Guard Throwable.addSuppressed() calls
  + 2675 Demo rewrite rules prevent URL Session tracking
  + 2677 Decode URI before matching against "/favicon.ico"
+ + 2679 HTTP/2 Spec Compliance
  + 2683 NPE in FrameFlusher toString()
  + 2684 MimeTypes.getAssumedEncodings() does not work
  + 2696 GcloudDataStore dependency generation broken
+ + 2706 ResourceService may return 404 for unchanged content
+ + 2722 Improve configurability for SETTINGS frames
+ + 2730 Limit concurrent HTTP/2 pushed resources
+ + 2737 HTTP Authentication parameters containing "="
 
 jetty-9.4.11.v20180605 - 05 June 2018
  + 1785 Support for vhost@connectorname syntax of virtual hosts
